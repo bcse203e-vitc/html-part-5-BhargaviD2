@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: azure;
+  margin: 5px;
+  box-sizing: border-box;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.card-box {
+  display: flex;
+  gap: 40px;
+  vertical-align: middle;
+}
+
+.card1 {
+  background-color: aliceblue;
+  padding: 8px;
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  text-align: center;
+}
+
+.card1:hover {
+  background-color: lightgreen;
+  box-shadow: 0 3px 3px;
+  transform: scale(1.1);
+}
