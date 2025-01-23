@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise-5</title>
+    <link rel="stylesheet" href="./Q10.css"/>
+</head>
+<body>
+    <div class="loading">
+        <div class="spinner"></div>
+        <p>Loading...</p>
+    </div>
+    <div class="content">
+        <p>This is the content after the loading screen</p>
+    </div>
+    <script>
+        const Loading=document.querySelector('.loading');
+        const Content=document.querySelector('.content');
+
+        setTimeout(()=>{
+            Loading.style.display='none';
+            Content.style.display='block';
+        },3000);
+    </script>
+</body>
+</html>
